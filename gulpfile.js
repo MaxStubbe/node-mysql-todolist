@@ -27,10 +27,10 @@ gulp.task('sonarqube', ['test'], function(callback) {
     sonarqubeScanner({
         serverUrl: "https://sonarqube.com",
         options: {
-            "sonar.organization": "avansinformaticabreda",
-            "sonar.projectKey": "avansinformaticabreda:master",
-            "sonar.login": "9ff8119ecea9f6c15d6c461a62dcc2d8db3439e1",
-            "sonar.projectName": "node-todolist",
+            "sonar.organization": "Prog4AndroidJensMax",
+            "sonar.projectKey": "JeMa1999:master",
+            "sonar.login": "97ab89e9b1cbf181c96787a759a38805f02fbbba",
+            "sonar.projectName": "Prog4Android",
             "sonar.working.directory": "./.sonar",
             "sonar.tests": "test",
             "sonar.javascript.lcov.reportPath": "coverage/lcov.info",
