@@ -63,7 +63,7 @@ app.use('*', function(req, res) {
 
 // Installatie klaar; start de server.
 app.listen(process.env.PORT || 3000, function() {
-    console.log('De todo server luistert op port ' + app.get('port'));
+    console.log('De server luistert op port ' + app.get('port'));
 });
 
 // Voor testen met mocha/chai moeten we de app exporteren.
